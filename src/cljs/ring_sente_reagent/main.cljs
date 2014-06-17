@@ -51,3 +51,6 @@
   (go-loop []
      (.log js/console (str (<! ch-chsk)))
      (recur)))
+
+
+; (chsk-send! [:some/event {:data "hello from client->server"}])

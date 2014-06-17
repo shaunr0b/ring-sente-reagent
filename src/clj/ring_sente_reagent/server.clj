@@ -72,3 +72,6 @@
 
 (defn stop []
   (alter-var-root #'server #(when % (.stop %))))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; (chsk-send! nil [:some/event {:data "hello from server->client"}])
