@@ -1,9 +1,11 @@
 ring-sente-reagent
 ==================
 
-(Under development)
+(Under construction)
 
-A mini framework consisting of: 
-Ring, a web server using http-kit 
-Sente, a 2-way transport mechanism
-Reagent, a Clojure wrapper over React.js
+A mini client/server framework consisting of: 
+
+* [http-kit](http://http-kit.org/), an HTTP/websocket server
+* [Ring](http://holmsand.github.io/reagent/), a web server using http-kit 
+* [Sente](https://github.com/ptaoussanis/sente), a 2-way transport mechanism
+* [Reagent](http://holmsand.github.io/reagent/), a Clojurescript wrapper over React.js
