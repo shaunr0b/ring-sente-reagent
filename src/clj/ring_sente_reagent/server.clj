@@ -60,6 +60,7 @@
       (wrap-anti-forgery
          {:read-token (fn [req] (-> req :params :csrf-token))})
       (handler/site))) ; http://weavejester.github.io/compojure/compojure.handler.html
+;;;;;;;;;;;;;;;;;;;;;
 
 (def server nil)
 

@@ -47,6 +47,7 @@
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 (defn ^:export main []
-  (hello))
+  (go-loop []
+     (.log js/console (str (<! ch-chsk)))
+     (recur)))
